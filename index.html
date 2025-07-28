@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="sticky-header">
         <div class="nav-container">
             <nav class="nav-navBox">
                 <div class="nav-nameBox">
@@ -22,8 +22,8 @@
                 <div class="nav-hidden">
                     <label for="nav-toggle" class="nav-hamburger close">&#10005;</label>
                     <div class="nav-sections">
-                        <p><a class="nav-a" href="#">About</a></p>
-                        <p><a class="nav-a" href="#">Education</a></p>
+                        <p><a class="nav-a" href="#about-me">About</a></p>
+                        <p><a class="nav-a" href="#education">Education</a></p>
                         <p><a class="nav-a" href="#">Skills</a></p>
                         <p><a class="nav-a" href="#">Interest</a></p>
                         <p><a class="nav-a" href="#">Projects</a></p>
@@ -71,7 +71,7 @@
             </div>
         </div>
     </div>
-    <div class="me-container about-expnd">
+    <div class="me-container about-expnd" id="about-me">
         <div class="about-me">
             <div class="about-start-txt">
                 <p>About me</p>
@@ -99,28 +99,32 @@
                         </div>
                         <div class="accomp-info">
                             <h3>2+</h3>
-                            <p>Years Learing</p>
+                            <p>Years Learning</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="me-container ed-background">
+    <div class="me-container ed-background" id="education">
         <div class="my-ed">
             <div class="ed-start-txt">
                 <p>Educational Background</p>
             </div>
-            <div class="">
+            <div class="sp-certification">
                 <div class="ed-cert-box">
-                    <div>logo</div>
-                    <div>
+                    <div class="info-trail-logo">
+                        <img class="ed-icons" src="graduate-hat.png" alt="hat">
+                    </div>
+                    <div class="info-trail">
                         <h3>Bachelors degree in Marine Engineering</h3>
-                        <p>Jomo Kenyatta University of Agriculture and Technology</p>
-                        <div>
-                            <p>2020 - 2025</p>
+                        <p class="uni">Jomo Kenyatta University of Agriculture and Technology</p>
+                        <div class="dates-box">
+                            <img class="calendar-icon" src="calendar.png" alt="calendar">
+                            <p class="uni">2020 - 2025</p>
                         </div>
-                        <p> I pursued a Bachelor's degree in Marine Engineering at JKUAT, where I gained a strong
+                        <p class="uni-desc"> I pursued a Bachelor's degree in Marine Engineering at JKUAT, where I
+                            gained a strong
                             foundation
                             in marine systems, engineering principles, and problem-solving. My time at the university
                             also
@@ -130,15 +134,193 @@
                     </div>
                 </div>
                 <div class="ed-cert-box">
-                    <div>logo</div>
+                    <div>
+                        <img class="ed-icons" src="medal.png" alt="medal">
+                    </div>
                     <div>
                         <h3>Relevant Certifications</h3>
-                        <ul>
+                        <ul class="cert-ul">
                             <li>Udemy: Complete Web development Bootcamp</li>
                             <li>Basic Safety and Security traning</li>
                         </ul>
                     </div>
                 </div>
+            </div>
+            <div class="resume-sec">
+                <div class="resume-box">
+                    <h3>Want to know more about my background?</h3>
+                    <p>Download my complete CV to see my full educational journey, achievements and project
+                        descriprions.</p>
+                    <a href="resume-Romanus.pdf" class="view-a download-button" download>
+                        Download My CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="me-container techie">
+        <div class="my-lang">
+            <div class="lang-start-txt">
+                <p>What excites me about tech</p>
+            </div>
+            <div class="techie-grid">
+                <div class="techie-card">
+                    <div class="techie-info">
+                        <div class="web-icon-box">
+                            <img class="code-icon techie-icon" src="code.png" alt="code" >
+                        </div>
+                        <div class="">
+                            <p>Web Development</p>
+                        </div>
+                    </div>
+                    <div class="techie-desc"> 
+                        <p>Exploring modern frameworks and best practices to create seamless user experiences.</p>
+                    </div>
+                </div>
+                <div class="techie-card">
+                    <div class="techie-info">
+                        <div class="flash-icon-box">
+                            <img class="flash-icon techie-icon" src="thunder.png" alt="code" >
+                        </div>
+                        <div>
+                            <p>Tech Innovations</p>
+                        </div>
+                    </div>
+                    <div class="techie-desc">
+                        <p>Keeping up with emerging trends in technology and their practical applications.</p>
+                    </div>
+                </div>
+                <div class="techie-card">
+                    <div class="techie-info">
+                        <div class="user-icon-box">
+                            <img class="flash-icon techie-icon" src="group.png" alt="code" >
+                        </div>
+                        <div>
+                            <p>User experience</p>
+                        </div>
+                    </div>
+                    <div class="techie-desc">
+                        <p>Designing interfaces that are intuitive, accessible, and delightful to use.</p>
+                    </div>
+                </div>
+                <div class="techie-card">
+                    <div class="techie-info">
+                        <div class="idea-icon-box">
+                            <img class="flash-icon techie-icon" src="idea.png" alt="code" >
+                        </div>
+                        <div>
+                            <p>Problem solving</p>
+                        </div>
+                    </div>
+                    <div class="techie-desc">
+                        <p>Finding creative solutions to complex challenges through code and design.</p>
+                    </div>
+                </div>
+                <div class="techie-card">
+                    <div class="techie-info">
+                        <div class="net-icon-box">
+                            <img class="flash-icon techie-icon" src="internet.png" alt="code" >
+                        </div>
+                        <div>
+                            <p>Open Source</p>
+                        </div>
+                    </div>
+                    <div class="techie-desc">
+                        <p>Contributing to the developer community and learning from collaborative projects.</p>
+                    </div>
+                </div>
+                <div class="techie-card">
+                    <div class="techie-info">
+                        <div class="mobile-icon-box">
+                            <img class="flash-icon techie-icon" src="smartphone.png" alt="code" >
+                        </div>
+                        <div>
+                            <p>Mobile Development</p>
+                        </div>
+                    </div>
+                    <div class="techie-desc">
+                        <p>Creating responsive applications that work beautifully across all devices.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="me-container lang-container">
+        <div class="my-lang">
+            <div class="lang-start-txt">
+                <p>Programming Languages & skills</p>
+            </div>
+            <div class="lang-dictionary">
+                <div class="lang-card">
+                    <h3>Programming languages</h3>
+                    <div class="dictionary-list">
+                        <div class="p-l">
+                            <p>Javascript</p>
+                        </div>
+                        <div class="p-l">
+                            <p>Typescript</p>
+                        </div>
+                        <div class="p-l">
+                            <p>Python</p>
+                        </div>
+                        <div class="p-l">
+                            <p>CSS3</p>
+                        </div>
+                        <div class="p-l">
+                            <p>HTML 5</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lang-card">
+                    <h3>Frameworks & Libraries</h3>
+                    <div class="dictionary-list">
+                        <div class="f-l">
+                            <p>React</p>
+                        </div>
+                        <div class="f-l">
+                            <p>Next.js</p>
+                        </div>
+                        <div class="f-l">
+                            <p>Angular</p>
+                        </div>
+                        <div class="f-l">
+                            <p>Node.js</p>
+                        </div>
+                        <div class="f-l">
+                            <p>Express</p>
+                        </div>
+                        <div class="f-l">
+                            <p>Tailwind CSS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lang-card">
+                    <h3>Tools & Technologies</h3>
+                    <div class="dictionary-list">
+                        <div class="t-l">
+                            <p>Git</p>
+                        </div>
+                        <div class="t-l">
+                            <p>Figma</p>
+                        </div>
+                        <div class="t-l">
+                            <p>PostgreSQL</p>
+                        </div>
+                        <div class="t-l">
+                            <p>MongoDB</p>
+                        </div>
+                        <div class="t-l">
+                            <p>Rest APIs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ext-info-box">
+                <p class="ext-info">
+                    I'm proficient in multiple programming languages and constantly expanding my toolkit. My focus is on
+                    writing
+                    clean, efficient code that solves real-world problems.
+                </p>
             </div>
         </div>
     </div>
