@@ -23,17 +23,6 @@ CSS3 – Custom responsive styling and layout
 
 No JavaScript or frameworks – Purely frontend static site
 
-📁 File Overview
-portfolio/
-├── index.html            
-├── styles.css            
-├── resume-Romanus.pdf    
-├── profile-img.jpeg      
-└── assets/               
-    ├── github-sign.png
-    ├── linkedin.png
-    ├── mail.png
-    ├── js.png, css-3.png, html-5.png, etc.
 🧠 Sections Included
 About Me – My background and motivations
 
