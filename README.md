@@ -39,7 +39,7 @@ Contact – Email, location, and availability details
 📦 Installation
 To run locally:
 git clone https://github.com/RomanusBett/portfolio.git
-cd portfolio
+cd myportfolio
 Then simply open index.html in your browser.
 
 No dependencies or build tools needed — this is a static site.
